@@ -34,6 +34,8 @@ In this guide, we compare the **top 3 payment gateways for Indian businesses and
 * **Developer Ecosystem:** Extensive SDKs for JavaScript, Python, Node, React Native, Flutter, and pre-built integrations for WooCommerce, Shopify, and Astro.
 * **International Currency Support:** Enables international payments with dynamic currency conversion (DCC) across 100+ global currencies.
 
+<a href="https://razorpay.com" target="_blank" rel="noopener noreferrer nofollow" class="cta-button">Sign Up for Razorpay →</a>
+
 ---
 
 ## 2. Cashfree Payments (Best for Bulk Payouts & Marketplaces)
@@ -45,6 +47,8 @@ In this guide, we compare the **top 3 payment gateways for Indian businesses and
 * **Flow Checkout:** Highly customizable checkout flows with headless SDK options for custom app designs.
 * **Verification Suite:** Built-in APIs to verify customer bank accounts, PAN cards, and Aadhaar during onboarding.
 
+<a href="https://www.cashfree.com" target="_blank" rel="noopener noreferrer nofollow" class="cta-button">Get Started with Cashfree →</a>
+
 ---
 
 ## 3. PhonePe Payment Gateway (Best for Low Transaction Costs on Domestic UPI)
@@ -55,6 +59,8 @@ Backed by PhonePe's massive consumer UPI user base, **PhonePe PG** is an attract
 * **High UPI Success Rates:** Leverages direct integration with the PhonePe consumer ecosystem for rapid one-click UPI checkout.
 * **Transparent Pricing:** Competitive pricing models tailored for domestic Indian transactions.
 * **Easy Plugin Setup:** Quick-start plugins available for standard eCommerce platforms like WooCommerce and Shopify.
+
+<a href="https://www.phonepe.com/business-solutions/payment-gateway/" target="_blank" rel="noopener noreferrer nofollow" class="cta-button">Explore PhonePe Gateway →</a>
 
 ---
 
