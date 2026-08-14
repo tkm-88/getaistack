@@ -5,11 +5,12 @@ import '../styles/global.css';
 import { SITE_TITLE } from '../consts';
 
 interface Props {
-	title: string;		description: string;
+	title: string;
+	description: string;
 	image?: string;
 }
 
-const canonicalURL = new URL;Astro.url.pathname, Astro.site);
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
 const { title, description, image = '/blog-placeholder-1.jpg' } = Astro.props;
 ---
@@ -27,9 +28,8 @@ const { title, description, image = '/blog-placeholder-1.jpg' } = Astro.props;
 />
 <meta name="generator" content={Astro.generator} />
 
-<!-- Impact Site Verification -->
+<!-- Impact.com Site Verification -->
 <meta name="impact-site-verification" value="4ba263db-8031-4788-ae28-0e86bf225cb4" />
-<meta name="impact-site-verification" content="4ba263db-8031-4788-ae28-0e86bf225cb4" />
 
 <!-- Font preloads -->
 <link rel="preload" href="/fonts/atkinson-regular.woff" as="font" type="font/woff" crossorigin />
@@ -42,7 +42,6 @@ const { title, description, image = '/blog-placeholder-1.jpg' } = Astro.props;
 <title>{title}</title>
 <meta name="title" content={title} />
 <meta name="description" content={description} />
-<meta name="Impact-Site-Verification" content="4ba263db-8031-4788-ae28-0e86bf225cb4" />
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
@@ -54,6 +53,6 @@ const { title, description, image = '/blog-placeholder-1.jpg' } = Astro.props;
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content={Astro.url} />
-<meta property="twitter:title" content=xtitle} />
+<meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={new URL(image, Astro.url)} />
